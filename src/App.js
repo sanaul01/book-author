@@ -5,8 +5,7 @@ import Authors from './Components/Authors/Authors';
 
 function App() {
   return (
-    <div>
-      <h1>Authors web</h1>
+    <div className="app">
       <Header></Header>
       <Authors></Authors>
     </div>

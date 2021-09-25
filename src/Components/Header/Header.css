@@ -1,0 +1,9 @@
+.header{
+    text-align: center;
+    justify-content: center;
+    border: 1px solid lightslategray;
+    line-height: 20px;
+    margin-inline: 50px;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
