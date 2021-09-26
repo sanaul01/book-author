@@ -1,0 +1,28 @@
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.box-field{
+    border: 2px solid lightslategray;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #006400;
+    
+}
+.box{
+    margin-left: 40px;
+}
+.btn-regular{
+    border: 1px solid orange;
+    background-color: #00008B;
+    color: white;
+    width: 150px;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+}
