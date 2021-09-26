@@ -3,7 +3,7 @@ import './Author.css'
 
 const Author = (props) => {
     // console.log(props)
-    const {authorName, born, nationality, salary, img} = props.author
+    const {authorName, born, nationality, salary, img, work} = props.author
     return (
         <div className= "box-field">
             <div className="box">
@@ -13,6 +13,7 @@ const Author = (props) => {
             <p>Born: {born}</p>
             <p>Nationality: {nationality}</p>
             <p>Salary: ${salary}</p>
+            <p>Work: {work}</p>
             </div>
             <div>
             <button 

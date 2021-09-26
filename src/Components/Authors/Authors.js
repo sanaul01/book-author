@@ -13,6 +13,7 @@ const Authors = () => {
     }, [])
 
     const handleAddToCart = author =>{
+        console.log('click')
         const newCart = [...cart, author];
         setCart(newCart)
     }
@@ -24,7 +25,7 @@ const Authors = () => {
                     
                     {
                         authors.map(author => <Author 
-                            // key={author.key}
+                            key={author.key}
                             author={author}
                             handleAddToCart={handleAddToCart}
                             ></Author>)
