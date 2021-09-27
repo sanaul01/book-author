@@ -15,7 +15,7 @@ const Cart = (props) => {
 //======== Cart container ========== 
         <div className="cart">
             <h1>Author Number: {length}</h1>
-            <p>Total Salary: {total}</p>
+            <p>Total Salary: ${total}</p>
             <p>{name}</p>
         </div>
     );
