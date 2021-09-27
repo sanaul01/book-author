@@ -1,20 +1,20 @@
+/* container style  */
 .container{
     display: grid;
     grid-template-columns: 3fr 1fr;
+}
+.container h2{
+    text-align: center;
 }
 
 .authors-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 10px;
-   
-}
-.authors-container{
-    color: rgb(238, 217, 196);
-   border: 2px solid lightslategray;
+    color: #FDF181;
    border-radius: 5px;
-   /* background-color: rgb(141, 209, 63); */
-   margin: 10px;
-   ;
+}
 
+.total-authors{
+    text-align: center;
 }

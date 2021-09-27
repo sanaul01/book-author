@@ -1,28 +1,42 @@
+/* image style  */
 .image{
+    border:1px solid #b3ff00;
     width: 150px;
     height: 150px;
     border-radius: 80px;
     margin-top: 20px;
     margin-left: 30px;
 }
+
+/* box style  */
 .box-field{
-    border: 2px solid lightslategray;
+    border: 2px solid #b3ff00;
     margin: 10px;
     border-radius: 10px;
     background-color: #006400;
-    
+    padding-bottom: 10px;
 }
 .box{
     margin-left: 40px;
 }
+/* button style  */
 .btn-regular{
-    border: 1px solid orange;
-    background-color: rgba(248, 5, 5, 0.993);
+    border: 1px solid #b3ff00;
+    background-color: rgba(165, 4, 4, 0.993);
     color: white;
     width: 150px;
-    line-height: 30px;
+    line-height: 25px;
     border-radius: 5px;
     cursor: pointer;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+ /* icon style  */
+.icon-field{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.icon{
+    color: black;
+    font-size: 25px;
 }

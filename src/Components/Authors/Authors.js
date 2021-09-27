@@ -4,8 +4,8 @@ import Cart from '../Cart/Cart';
 import './Authors.css'
 
 const Authors = () => {
-    const [authors, setAuthors] = useState([])
-    const [cart, setCart] = useState([])
+    const [authors, setAuthors] = useState([]);
+    const [cart, setCart] = useState([]);
     useEffect(()=>{
         fetch('./tools.JSON')
         .then(res => res.json())
@@ -13,14 +13,16 @@ const Authors = () => {
     }, [])
 
     const handleAddToCart = author =>{
-        console.log('click')
+        // console.log(author)
         const newCart = [...cart, author];
         setCart(newCart)
     }
     return (
         <div className="container">
             <div >
-            <h2>authors: {authors.length}</h2>
+            <h2>Authors: {authors.length}</h2> 
+
+{/*============ Author field =========== */}
                 <div className="authors-container">
                     
                     {
@@ -32,6 +34,8 @@ const Authors = () => {
                     }
                 </div>            
             </div>
+
+{/*=========== cart field ============*/}
             <div className="cart-container">
                 <Cart cart={cart}></Cart>
             </div>

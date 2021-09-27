@@ -3,7 +3,9 @@
     justify-content: center;
     border: 1px solid lightslategray;
     line-height: 20px;
-    /* margin-inline: 50px; */
-    /* border-radius: 10px; */
     background-color: #FF8C00;
+}
+
+.header p{
+    font-weight: 600;
 }
