@@ -4,10 +4,9 @@ import './Cart.css'
 const Cart = (props) => {
     const {cart} = props;
     let total = 0;
-    let name = '';
+
     for(const author of cart){
         total = total + author.salary;  
-        name = author.authorName
     }
     
     const {length} = props.cart
@@ -16,7 +15,9 @@ const Cart = (props) => {
         <div className="cart">
             <h1>Author Number: {length}</h1>
             <p>Total Salary: ${total}</p>
-            <p>{name}</p>
+            {
+                cart.map(name =><li>{name.authorName}</li>)
+            }
         </div>
     );
 };
